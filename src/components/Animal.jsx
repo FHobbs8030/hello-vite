@@ -1,4 +1,5 @@
 import { data } from "../utils/constants";
+import "./Animal.css";
 
 function Animal({ selectedAnimal }) {
   const animal = data.find((item) => item.name === selectedAnimal);
@@ -8,13 +9,11 @@ function Animal({ selectedAnimal }) {
   }
 
   return (
-    <div>
-      <img
-        src={animal.image}
-        alt={animal.name}
-        style={{ width: "300px", borderRadius: "8px" }}
-      />
-      <p>{animal.name}</p>
+    <div className="animal-container">
+      <p className="animal-text">
+        This is your first Vite project — "Vite" means "quick" in French.
+      </p>
+      <img className="animal-image" src={animal.image} alt={animal.name} />
     </div>
   );
 }

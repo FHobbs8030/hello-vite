@@ -1,14 +1,13 @@
 import React from "react";
-import Header from "./Header";
-import Main from "./Main";
+import Animal from "./components/Animal";
 import "./App.css";
 
 function App() {
   return (
-    <>
-      <Header />
-      <Main />
-    </>
+    <div>
+      <h1>Hello Vite!</h1>
+      <Animal selectedAnimal="dog" />
+    </div>
   );
 }
 
