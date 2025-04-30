@@ -3,11 +3,16 @@
   font-family: "Roboto";
 }
 
-.container {
-    display: flex;
-    justify-content: space-between;
-    width: 80%;  
-    margin: 0 auto;  
+.container p {
+    margin: 0;  
+}
+
+.left-text {
+    margin-left: 100px;  
+}
+
+.right-text {
+    margin-right: 100px;  
 }
 
 .description {
