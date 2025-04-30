@@ -8,10 +8,9 @@ function Animal({ selectedAnimal }) {
   const name = animal ? animal.name : "Unknown animal";
 
   return (
-    <div className="container">
-      <p>This is your first Vite project</p>
-      <p>"Vite" means "quick" in French.</p>
-      <img className="animal-image" src={imageSrc} alt={name} />
+    <div className="text-row">
+      <p className="left-text">This is your first Vite project</p>
+      <p className="right-text">"Vite" means "quick" in French.</p>
     </div>
   );
 }
