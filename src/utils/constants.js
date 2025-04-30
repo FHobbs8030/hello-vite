@@ -7,4 +7,4 @@ export const data = [
     name: "dog",
     image: new URL("../assets/animals/pup1.jpg", import.meta.url).href
   },
-  // etc...
+]
