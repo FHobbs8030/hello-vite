@@ -1,11 +1,11 @@
 @font-face {
-  src: url("./assets/yellowtail-regular.woff") format("woff");
-  font-family: "Yellowtail";
+  font-family: 'Yellowtail';
+  src: url('/src/assets/yellowtail-regular.woff') format('woff');
 }
 
 @font-face {
-  src: url("./assets/roboto-regular.woff") format("woff");
-  font-family: "Roboto";
+  font-family: 'Roboto';
+  src: url('/src/assets/roboto-regular.woff') format('woff');
 }
 
 .header {
