@@ -3,6 +3,11 @@
   font-family: "Roboto";
 }
 
+p {
+    display: inline-block;
+    margin-right: 40px;
+}
+
 .container {
   display: flex;
   justify-content: space-around;
