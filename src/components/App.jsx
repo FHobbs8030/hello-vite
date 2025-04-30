@@ -1,14 +1,14 @@
 import React from "react";
-import Header from "./Header"; // <-- no .jsx needed
+import Header from "./Header"; 
 import Main from "./Main";
 import "./App.css";
 
 function App() {
   return (
-    <>
+    <div className="page">
       <Header />
       <Main />
-    </>
+    </div>
   );
 }
 
