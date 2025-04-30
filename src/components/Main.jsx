@@ -6,10 +6,9 @@ function Main({ selectedAnimal }) {
 
   return (
     <div className="container">
-      <div className="text">
-        <p>This is your first Vite project</p>
-        <p>"Vite" means "quick" in French</p>
-      </div>
+      <p className="description">
+        This is your first Vite project — "Vite" means "quick" in French
+      </p>
       <img className="animal-image" src={animal.image} alt={animal.name} />
     </div>
   );
