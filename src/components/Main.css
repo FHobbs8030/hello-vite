@@ -1,4 +1,9 @@
- .container {
+@font-face {
+  src: url("../assets/roboto-regular.woff") format("woff");
+  font-family: "Roboto";
+}
+
+.container {
    display: flex;
    justify-content: space-around;
  }
