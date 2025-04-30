@@ -1,12 +1,22 @@
-.animal-container {
-  display: flex;
-  flex-direction: column; 
-  align-items: center;    
-  gap: 20px;              
+@font-face {
+  font-family: "Roboto";
+  src: url("../assets/roboto-regular.woff") format("woff");
 }
 
-.animal-text {
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin-top: 40px;
+}
+
+.description {
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
   text-align: center;
+  max-width: 600px;
+  margin: 0;
 }
 
 .animal-image {
@@ -14,3 +24,4 @@
   height: auto;
   border-radius: 8px;
 }
+
