@@ -1,13 +1,22 @@
-import React from "react";
 import { data } from "../utils/constants";
-import "./Animal.css"; 
 
 function Animal({ selectedAnimal }) {
   const animal = data.find((item) => item.name === selectedAnimal);
 
-  if (!animal) return <p>Animal not found</p>;
+  if (!animal) {
+    return <p>No matching animal found.</p>;
+  }
 
-  return <img className="animal-image" src={animal.image} alt={animal.name} />;
+  return (
+    <div>
+      <img
+        src={animal.image}
+        alt={animal.name}
+        style={{ width: "300px", borderRadius: "8px" }}
+      />
+      <p>{animal.name}</p>
+    </div>
+  );
 }
 
 export default Animal;
