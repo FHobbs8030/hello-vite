@@ -1,15 +1,10 @@
-import { data } from "../utils/constants";
 import "./Main.css";
 
-function Main({ selectedAnimal }) {
-  const animal = data.find((item) => item.name === selectedAnimal);
-
+function Main() {
   return (
     <div className="container">
-      <p className="description">
-        This is your first Vite project — "Vite" means "quick" in French
-      </p>
-      <img className="animal-image" src={animal.image} alt={animal.name} />
+      <p>This is your first Vite project</p>
+      <p>"Vite" means "quick" in French</p>
     </div>
   );
 }
