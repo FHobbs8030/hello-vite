@@ -3,7 +3,7 @@ import "./Main.css";
 function Main() {
   return (
     <main>
-      <p>Main content will go here</p>
+      <p>This is your first vite project</p>
     </main>
   );
 }

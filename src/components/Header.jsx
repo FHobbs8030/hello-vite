@@ -4,8 +4,8 @@ import headerLogo from "../assets/logo.png";
 function Header() {
   return (
     <header>
-      <h1>My Animal App</h1>
       <img src={headerLogo} alt="header logo" />
+      <h1>Hello Vite!</h1>
     </header>
   );
 }
