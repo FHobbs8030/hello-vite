@@ -7,12 +7,13 @@ function Animal({ selectedAnimal }) {
   const name = animal ? animal.name : "Unknown";
 
   return (
-    <main>
-      <div className="container">
-        <p>This is your first vite project</p>
-        <p>"Vite" means "quick" in French</p>
+    <div className="container">
+      <div className="text-row">
+        <p className="left-text">This is your first Vite project</p>
+        <p className="right-text">"Vite" means "quick" in French</p>
       </div>
-    </main>
+      <img className="animal-image" src={imageSrc} alt={name} />
+    </div>
   );
 }
 

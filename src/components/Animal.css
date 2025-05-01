@@ -3,9 +3,15 @@
    justify-content: space-around;
  }
 
+.text-row {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  text-align: center;
+}
+
 .animal-image {
   width: 300px;
   height: auto;
   border-radius: 8px;
-  display: block;
 }
