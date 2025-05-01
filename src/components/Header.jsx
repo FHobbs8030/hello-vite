@@ -3,10 +3,10 @@ import headerLogo from "../assets/logo.png";
 
 function Header() {
   return (
-    <div className="header">
-      <img className="header__logo" src={headerLogo} alt="TripleTen logo" />
-      <h1 className="header__title">Hello Vite!</h1>
-    </div>
+    <header>
+      <h1>My Animal App</h1>
+      <img src={headerLogo} alt="header logo" />
+    </header>
   );
 }
 
