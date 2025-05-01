@@ -7,9 +7,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 15px;
+  padding: 15px 15px 0px 15px;
   text-align: center;
   gap: 12px; 
+  margin: 0px 20px 0px 0px;
 }
 
 .header__logo {
