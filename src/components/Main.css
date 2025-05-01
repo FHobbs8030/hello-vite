@@ -1,5 +1,4 @@
-.text-row {
-  display: flex;
-  flex-direction: row;
-  gap: 10px; 
-}
+ .container {
+   display: flex;
+   justify-content: space-around;
+ }

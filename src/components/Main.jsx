@@ -2,9 +2,9 @@ import "./Main.css";
 
 function Main() {
   return (
-    <div className="text-row">
-      <p className="left-text">This is your first Vite project</p>
-      <p className="right-text">"Vite" means "quick" in French</p>
+    <div className="container">
+      <p>This is your first Vite project</p>
+      <p>&quot;"Vite"&quot; means &quot;"quick"&quot; in French</p>
     </div>
   );
 }
